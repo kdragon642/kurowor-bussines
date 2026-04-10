@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Kuroword — productos digitales, software SaaS e impresión bajo demanda. Soluciones para creadores y empresas." />
+    <title>Kuroword — Productos digitales y SaaS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="logo" href="index.html">Kuroword</a>
+        <nav class="nav" aria-label="Principal">
+          <a href="index.html" aria-current="page">Inicio</a>
+          <a href="precios.html">Precios</a>
+          <a href="contacto.html">Contacto</a>
+          <a href="terminos.html">Términos</a>
+          <a href="privacidad.html">Privacidad</a>
+          <a href="reembolsos.html">Reembolsos</a>
+          <div class="lang-switch" role="group" aria-label="Idioma">
+            <a href="index.html" aria-current="true">ES</a>
+            <a href="../en/index.html">EN</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero wrap">
+        <h1>Software y productos digitales que crecen contigo</h1>
+        <p class="lead">Kuroword desarrolla y vende bienes digitales: suscripciones SaaS, productos descargables e impresión bajo demanda — con precios claros y pago seguro.</p>
+        <div>
+          <a class="btn btn--primary" href="precios.html">Ver precios</a>
+          <a class="btn btn--ghost" href="contacto.html">Contacto</a>
+        </div>
+      </section>
+
+      <section class="wrap">
+        <h2>Qué ofrecemos</h2>
+        <div class="grid grid--3">
+          <article class="card">
+            <h3>SaaS y suscripciones</h3>
+            <p>Software en la nube con facturación recurrente. Acceso, renovación y cancelación se describen en nuestros Términos y en el checkout.</p>
+          </article>
+          <article class="card">
+            <h3>Descargas digitales</h3>
+            <p>Archivos y herramientas con licencia, entregados por medios electrónicos tras la confirmación del pago.</p>
+          </article>
+          <article class="card">
+            <h3>Impresión bajo demanda (POD)</h3>
+            <p>Productos físicos personalizados fabricados al pedir. Plazos de producción y envío se indican antes de comprar cuando aplique.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="wrap">
+        <h2>Pagos y cumplimiento</h2>
+        <p class="muted">El pago puede procesarse mediante Paddle y/o Stripe (o sus filiales) como comerciante de registro o procesador, según el producto y la región. El cargo en el extracto y los recibos identificarán claramente la operación. Consulta nuestra <a href="privacidad.html">Política de privacidad</a> y los <a href="terminos.html">Términos del servicio</a>.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner wrap">
+        <span>&copy; <span id="y"></span> Kuroword. Todos los derechos reservados.</span>
+        <nav aria-label="Legal">
+          <a href="precios.html">Precios</a>
+          <a href="terminos.html">Términos</a>
+          <a href="privacidad.html">Privacidad</a>
+          <a href="reembolsos.html">Reembolsos</a>
+          <a href="contacto.html">Contacto</a>
+        </nav>
+      </div>
+    </footer>
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

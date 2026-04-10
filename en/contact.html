@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Contact Kuroword — support, sales, and business inquiries." />
+    <title>Contact — Kuroword</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="logo" href="index.html">Kuroword</a>
+        <nav class="nav" aria-label="Main">
+          <a href="index.html">Home</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="contact.html" aria-current="page">Contact</a>
+          <a href="terms.html">Terms</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="refunds.html">Refunds</a>
+          <div class="lang-switch" role="group" aria-label="Language">
+            <a href="../es/contacto.html">ES</a>
+            <a href="contact.html" aria-current="true">EN</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap wrap--narrow">
+      <h1 class="page-title">Contact</h1>
+      <p class="updated">We reply to emails on business days (Monday–Friday, Europe/Madrid time).</p>
+
+      <p>For order issues, use the email from your receipt or the support link provided after purchase. For general questions, use the contacts below.</p>
+
+      <dl class="contact-box">
+        <dt>Customer &amp; product support</dt>
+        <dd><a href="mailto:support@kuroword.com">support@kuroword.com</a></dd>
+        <dt>Business &amp; partnerships</dt>
+        <dd><a href="mailto:hola@kuroword.com">hola@kuroword.com</a></dd>
+        <dt>Trading name</dt>
+        <dd>Kuroword</dd>
+        <dt>Operator location</dt>
+        <dd>Spain (European Union). Business: digital products, SaaS subscriptions, and print-on-demand.</dd>
+        <dt>Address &amp; correspondence</dt>
+        <dd>Support and commercial notices are handled by email. If you need a postal address for a legal or administrative request, email <a href="mailto:support@kuroword.com">support@kuroword.com</a> with details; we will provide the appropriate information for your case (it must match what you declare on Paddle, Stripe, or invoicing).</dd>
+        <dt>Phone</dt>
+        <dd>We do not operate a public support phone line; customer service is email-only.</dd>
+      </dl>
+
+      <p class="muted" style="margin-top: 2rem">Payments are processed by third-party providers (e.g. Paddle, Stripe). Your bank statement may show their name or a descriptor we configure. For charge disputes, contact us first so we can help.</p>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner wrap">
+        <span>&copy; <span id="y"></span> Kuroword.</span>
+        <nav aria-label="Legal">
+          <a href="pricing.html">Pricing</a>
+          <a href="terms.html">Terms</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="refunds.html">Refunds</a>
+        </nav>
+      </div>
+    </footer>
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

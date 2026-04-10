@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Kuroword — digital products, SaaS software, and print-on-demand. Professional solutions for creators and businesses." />
+    <title>Kuroword — Digital products &amp; SaaS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="logo" href="index.html">Kuroword</a>
+        <nav class="nav" aria-label="Main">
+          <a href="index.html" aria-current="page">Home</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="contact.html">Contact</a>
+          <a href="terms.html">Terms</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="refunds.html">Refunds</a>
+          <div class="lang-switch" role="group" aria-label="Language">
+            <a href="../es/index.html">ES</a>
+            <a href="index.html" aria-current="true">EN</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero wrap">
+        <h1>Software and digital products that scale with you</h1>
+        <p class="lead">Kuroword builds and sells digital goods: SaaS subscriptions, downloadable products, and print-on-demand items — with clear pricing and secure checkout.</p>
+        <div>
+          <a class="btn btn--primary" href="pricing.html">View pricing</a>
+          <a class="btn btn--ghost" href="contact.html">Contact us</a>
+        </div>
+      </section>
+
+      <section class="wrap">
+        <h2>What we offer</h2>
+        <div class="grid grid--3">
+          <article class="card">
+            <h3>SaaS &amp; subscriptions</h3>
+            <p>Cloud software with recurring billing. Access, renewal, and cancellation terms are described in our Terms and at checkout.</p>
+          </article>
+          <article class="card">
+            <h3>Digital downloads</h3>
+            <p>Licensed digital files and tools delivered electronically after payment confirmation.</p>
+          </article>
+          <article class="card">
+            <h3>Print on demand</h3>
+            <p>Custom-printed physical products produced when you order. Production and shipping timelines are shown before purchase when applicable.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="wrap">
+        <h2>Payments &amp; compliance</h2>
+        <p class="muted">Checkout may be processed by Paddle and/or Stripe (or their affiliates) as Merchant of Record or payment processor, depending on the product and region. Card statements and receipts will identify the charge clearly. See our <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms of Service</a>.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner wrap">
+        <span>&copy; <span id="y"></span> Kuroword. All rights reserved.</span>
+        <nav aria-label="Legal">
+          <a href="pricing.html">Pricing</a>
+          <a href="terms.html">Terms</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="refunds.html">Refunds</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </footer>
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

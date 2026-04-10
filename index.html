@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kuroword</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <script>
+      (function () {
+        var n = navigator.language || "";
+        if (n.toLowerCase().startsWith("es")) window.location.replace("es/index.html");
+        else window.location.replace("en/index.html");
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="pick">
+      <h1>Kuroword</h1>
+      <p>Productos digitales, SaaS y bajo demanda.</p>
+      <div class="actions">
+        <a class="btn btn--primary" href="es/index.html">Español</a>
+        <a class="btn btn--ghost" href="en/index.html">English</a>
+      </div>
+    </div>
+    <noscript>
+      <p style="text-align: center"><a href="es/index.html">Español</a> · <a href="en/index.html">English</a></p>
+    </noscript>
+  </body>
+</html>
